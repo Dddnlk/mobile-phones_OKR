@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: yellow !important; /* Перевизначення за допомогою !important */
+    color: yellow !important; 
 }
 
 /* СТИЛІ ДЛЯ СПИСКІВ */
@@ -78,4 +78,23 @@ tr:nth-child(even) {
     color: gold;
     font-size: 32px;
     font-style: italic;
+}
+
+
+/* КОНТЕКСТНИЙ СЕЛЕКТОР: абзаци всередині .highlight */
+.highlight p {
+    color: lightcoral;
+    font-style: italic;
+}
+
+/* ДОЧІРНІЙ СЕЛЕКТОР: лише прямі <li> в <ul> */
+ul > li {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+/* СУСІДНІЙ СЕЛЕКТОР: перший <p> після <h2> */
+h2 + p {
+    color: lightblue;
+    text-decoration: underline;
 }
