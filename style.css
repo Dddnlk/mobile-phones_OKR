@@ -1,0 +1,81 @@
+/* СТИЛІ ДЛЯ ТІЛА ДОКУМЕНТА */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* СТИЛІ ДЛЯ ЗАГОЛОВКІВ */
+h1, h2, h3 {
+    font-size: 28px;
+    color: orange;
+    text-align: center;
+}
+
+/* СТИЛІ ДЛЯ ПОСИЛАНЬ */
+a {
+    color: lightgreen;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow !important; /* Перевизначення за допомогою !important */
+}
+
+/* СТИЛІ ДЛЯ СПИСКІВ */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #ccc;
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #ccc;
+}
+dl {
+    color: lightblue;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 20px;
+}
+
+/* СТИЛІ ДЛЯ ТАБЛИЦІ */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #222;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #333;
+    color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* КЛАС ДЛЯ ОКРЕМИХ БЛОКІВ */
+.highlight {
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+}
+
+/* ІДЕНТИФІКАТОР ДЛЯ СПЕЦІАЛЬНОГО ЗАГОЛОВКА */
+#special-title {
+    color: gold;
+    font-size: 32px;
+    font-style: italic;
+}
