@@ -81,19 +81,19 @@ tr:nth-child(even) {
 }
 
 
-/* КОНТЕКСТНИЙ СЕЛЕКТОР: абзаци всередині .highlight */
+/* КОНТЕКСТНИЙ СЕЛЕКТОР:  */
 .highlight p {
     color: lightcoral;
     font-style: italic;
 }
 
-/* ДОЧІРНІЙ СЕЛЕКТОР: лише прямі <li> в <ul> */
+/* ДОЧІРНІЙ СЕЛЕКТОР:  */
 ul > li {
     font-weight: bold;
     color: lightgreen;
 }
 
-/* СУСІДНІЙ СЕЛЕКТОР: перший <p> після <h2> */
+/* СУСІДНІЙ СЕЛЕКТОР:  */
 h2 + p {
     color: lightblue;
     text-decoration: underline;
